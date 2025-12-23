@@ -1,3 +1,6 @@
+# --- AI Tool ---
+.claude/
+
 # --- Python 通用 ---
 __pycache__/
 *.pyc
