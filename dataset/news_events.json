@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "content": "Central Bank announces surprise interest rate hike of 0.5%",
+        "sentiment": "bearish",
+        "category": "monetary_policy"
+    },
+    {
+        "id": 2,
+        "content": "Major tech company reports record-breaking quarterly earnings",
+        "sentiment": "bullish",
+        "category": "corporate_earnings"
+    },
+    {
+        "id": 3,
+        "content": "GDP growth falls below market expectations at 1.2%",
+        "sentiment": "bearish",
+        "category": "macroeconomic"
+    },
+    {
+        "id": 4,
+        "content": "Inflation data comes in higher than forecasted at 4.5%",
+        "sentiment": "bearish",
+        "category": "macroeconomic"
+    },
+    {
+        "id": 5,
+        "content": "Federal Reserve signals potential rate cuts in coming months",
+        "sentiment": "bullish",
+        "category": "monetary_policy"
+    },
+    {
+        "id": 6,
+        "content": "Unemployment rate drops to historic low of 3.5%",
+        "sentiment": "bullish",
+        "category": "labor_market"
+    },
+    {
+        "id": 7,
+        "content": "Trade tensions escalate between major economies",
+        "sentiment": "bearish",
+        "category": "geopolitical"
+    },
+    {
+        "id": 8,
+        "content": "Breakthrough in AI technology drives tech sector optimism",
+        "sentiment": "bullish",
+        "category": "technology"
+    },
+    {
+        "id": 9,
+        "content": "Oil prices surge 10% due to geopolitical tensions",
+        "sentiment": "bearish",
+        "category": "commodities"
+    },
+    {
+        "id": 10,
+        "content": "Consumer confidence index reaches 5-year high",
+        "sentiment": "bullish",
+        "category": "consumer"
+    },
+    {
+        "id": 11,
+        "content": "Housing market shows signs of cooling, prices down 3%",
+        "sentiment": "bearish",
+        "category": "real_estate"
+    },
+    {
+        "id": 12,
+        "content": "Strong retail sales data beats analyst expectations",
+        "sentiment": "bullish",
+        "category": "consumer"
+    },
+    {
+        "id": 13,
+        "content": "Manufacturing sector contracts for third consecutive month",
+        "sentiment": "bearish",
+        "category": "industry"
+    },
+    {
+        "id": 14,
+        "content": "Central Bank maintains current interest rate, markets stable",
+        "sentiment": "neutral",
+        "category": "monetary_policy"
+    },
+    {
+        "id": 15,
+        "content": "Cryptocurrency market sees major volatility, down 15%",
+        "sentiment": "bearish",
+        "category": "crypto"
+    },
+    {
+        "id": 16,
+        "content": "New fiscal stimulus package announced by government",
+        "sentiment": "bullish",
+        "category": "fiscal_policy"
+    },
+    {
+        "id": 17,
+        "content": "Corporate earnings season shows mixed results across sectors",
+        "sentiment": "neutral",
+        "category": "corporate_earnings"
+    },
+    {
+        "id": 18,
+        "content": "Bond yields invert, raising recession concerns",
+        "sentiment": "bearish",
+        "category": "fixed_income"
+    },
+    {
+        "id": 19,
+        "content": "Strong jobs report boosts market sentiment",
+        "sentiment": "bullish",
+        "category": "labor_market"
+    },
+    {
+        "id": 20,
+        "content": "Supply chain disruptions ease, commodity prices stabilize",
+        "sentiment": "bullish",
+        "category": "supply_chain"
+    }
+]

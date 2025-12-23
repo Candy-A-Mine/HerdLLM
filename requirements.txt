@@ -1,0 +1,31 @@
+# SynMarket-Gen 依赖文件
+# Python >= 3.11
+# 推荐使用 Poetry 安装: poetry install
+
+# LLM 接口
+openai>=1.0.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=22.0.0
+
+# 科学计算与统计
+scipy>=1.11.0
+networkx>=3.6.1
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# 金融数据
+yfinance>=0.2.66
+
+# 网络请求
+httpx[socks]>=0.28.1
+
+# 异步支持
+asyncio>=4.0.0
+
+# 工具
+tqdm>=4.65.0

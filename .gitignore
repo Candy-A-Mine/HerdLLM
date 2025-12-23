@@ -1,0 +1,60 @@
+# --- Python 通用 ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+poetry.lock  # 建议保留！
+.pytest_cache/
+
+# --- IDE 配置 ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- 运行日志 (Logs) ---
+# 忽略 logs 文件夹下的所有日志文件
+logs/
+*.log
+
+# --- 实验结果数据 (Results) ---
+# 忽略所有实验结果数据，因为 parquet 和 json 可能很大，且每次运行都变
+results/
+# 但是！保留 results/figures 用于在 README 中展示图片
+!results/figures/
+# 同时忽略 figures 里的临时说明文件（如果有）
+results/figures/README.md
+
+# --- LaTeX 编译垃圾 (Report) ---
+# 你的 report 下有个 build 目录，直接忽略整个 build
+report/build/
+
+# 忽略 report 根目录下的编译中间文件 (防止 latexmk 在根目录生成)
+report/*.aux
+report/*.log
+report/*.out
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.toc
+report/*.xdv
+report/*.bbl
+report/*.blg
+
+# 关于 PDF：
+# 通常我们不传生成的 PDF，建议让别人自己编译
+# 但如果你想直接在 GitHub 展示最终论文，可以注释掉下面这行：
+report/main.pdf
+
+# --- 临时数据文件 ---
+# 忽略 dataset 下可能的临时解压文件，只保留原始 json
+# (目前看你的 dataset 只有 json，没问题，防止以后加大的)
+dataset/*.tmp
+dataset/*.csv
+
+# --- OS 生成文件 ---
+.DS_Store
