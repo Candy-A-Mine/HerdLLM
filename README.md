@@ -88,6 +88,9 @@ SynMarket-Gen 是一个基于大语言模型 (LLM) 的多智能体金融市场�
 SynMarket-Gen/
 ├── main.py                      # 主程序入口
 ├── pyproject.toml               # Poetry 依赖配置
+├── poetry.lock                  # 锁定的依赖版本
+├── requirements.txt             # pip 依赖列表（备用）
+├── LICENSE                      # MIT License
 ├── dataset/
 │   └── news_events.json         # 新闻事件数据集
 ├── src/
@@ -107,9 +110,8 @@ SynMarket-Gen/
 │   └── analysis.py              # 统计分析
 ├── docs/
 │   └── UML_CLASS_DIAGRAM.md     # UML 类图文档
-└── results/                     # 输出结果目录
-    └── figures/                 # 可视化图表
-        └── README.md            # 图表说明文档
+└── results/
+    └── figures/                 # 可视化图表（14 张）
 ```
 
 ### 模块依赖图
@@ -143,6 +145,8 @@ SynMarket-Gen/
 │ stylized_facts.py │           │real_market_benchmark.py│
 └───────────────────┘           └───────────────────────┘
 ```
+
+> 完整的 UML 类图、设计模式分析和数据流图请参阅 [`docs/UML_CLASS_DIAGRAM.md`](docs/UML_CLASS_DIAGRAM.md)。
 
 ---
 
@@ -253,7 +257,7 @@ social_sentiment = {
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourusername/SynMarket-Gen.git
+git clone https://github.com/Candy-A-Mine/SynMarket-Gen.git
 cd SynMarket-Gen
 
 # 2. 安装依赖
@@ -476,6 +480,32 @@ df.groupby(["round_num", "action"]).size().unstack()
 - 羊群效应在 SOCIAL_ONLY 和 FULL 条件下均显著增强 (+10-12pp)
 - 激进型 Agent 在所有条件下收益均优于保守型 (+3.7% vs +3.3%)
 
+### 关键图表展示
+
+<p align="center">
+  <img src="results/figures/hurst_comparison.png" width="420"/>
+  <img src="results/figures/return_distributions.png" width="420"/>
+</p>
+<p align="center">
+  <em>左：各条件 Hurst 指数对比 &nbsp;|&nbsp; 右：收益率分布与 QQ 图</em>
+</p>
+
+<p align="center">
+  <img src="results/figures/herding_analysis.png" width="420"/>
+  <img src="results/figures/network_topology.png" width="420"/>
+</p>
+<p align="center">
+  <em>左：LSV 羊群指标分析 &nbsp;|&nbsp; 右：BA 无标度社交网络结构</em>
+</p>
+
+<p align="center">
+  <img src="results/figures/stylized_facts.png" width="420"/>
+  <img src="results/figures/real_market_comparison.png" width="420"/>
+</p>
+<p align="center">
+  <em>左：Stylized Facts 金融典型事实验证 &nbsp;|&nbsp; 右：与真实市场 (SPY) 对比</em>
+</p>
+
 ---
 
 ## Stylized Facts 验证
@@ -685,7 +715,7 @@ class SimulationConfig:
   title = {SynMarket-Gen: LLM-Agent Based Financial Market Simulation},
   author = {SuZX},
   year = {2025},
-  url = {https://github.com/yourusername/SynMarket-Gen}
+  url = {https://github.com/Candy-A-Mine/SynMarket-Gen}
 }
 ```
 
