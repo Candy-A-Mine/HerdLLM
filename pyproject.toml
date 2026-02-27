@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "synmarket-gen"
+name = "herdllm"
 version = "0.1.0"
-description = "Financial Market Sentiment Evolution Simulation based on LLM-Agents"
+description = "LLM-Agent Based Financial Market Herding Simulation"
 authors = ["SuZX"]
 readme = "README.md"
 packages = [{include = "src"}]

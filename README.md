@@ -1,6 +1,6 @@
-# SynMarket-Gen
+# HerdLLM
 
-> **Synthetic Market Generator** — 基于 LLM-Agent 的金融市场情绪演化仿真系统
+> 基于 LLM-Agent 的金融市场羊群效应仿真系统
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![Poetry](https://img.shields.io/badge/Poetry-Package%20Manager-60a5fa.svg)](https://python-poetry.org/)
@@ -48,13 +48,13 @@
 
 ## 项目概述
 
-SynMarket-Gen 是一个基于大语言模型 (LLM) 的多智能体金融市场仿真系统，用于研究市场微观结构和交易者行为。
+HerdLLM 是一个基于大语言模型 (LLM) 的多智能体金融市场仿真系统，用于研究市场微观结构和交易者行为。
 
 ### 核心特性
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    SynMarket-Gen 系统                        │
+│                      HerdLLM 系统                             │
 ├─────────────────────────────────────────────────────────────┤
 │  🤖 LLM-Agent     基于 Ollama 本地大模型的智能决策           │
 │  🧠 Memory        历史经验反思与学习                         │
@@ -85,7 +85,7 @@ SynMarket-Gen 是一个基于大语言模型 (LLM) 的多智能体金融市场�
 ### 目录结构
 
 ```
-SynMarket-Gen/
+HerdLLM/
 ├── main.py                      # 主程序入口
 ├── pyproject.toml               # Poetry 依赖配置
 ├── poetry.lock                  # 锁定的依赖版本
@@ -257,8 +257,8 @@ social_sentiment = {
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/Candy-A-Mine/SynMarket-Gen.git
-cd SynMarket-Gen
+git clone https://github.com/Candy-A-Mine/HerdLLM.git
+cd HerdLLM
 
 # 2. 安装依赖
 poetry install
@@ -712,10 +712,10 @@ class SimulationConfig:
 
 ```bibtex
 @software{synmarket_gen,
-  title = {SynMarket-Gen: LLM-Agent Based Financial Market Simulation},
+  title = {HerdLLM: LLM-Agent Based Financial Market Herding Simulation},
   author = {SuZX},
   year = {2025},
-  url = {https://github.com/Candy-A-Mine/SynMarket-Gen}
+  url = {https://github.com/Candy-A-Mine/HerdLLM}
 }
 ```
 
@@ -735,5 +735,5 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ---
 
 <p align="center">
-  <b>SynMarket-Gen</b> — 探索金融市场的微观世界
+  <b>HerdLLM</b> — 探索金融市场的微观世界
 </p>
