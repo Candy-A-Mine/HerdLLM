@@ -339,7 +339,7 @@ def main():
     # 步骤2: 打印标题
     # =========================================================================
     print("\n" + "=" * 70)
-    print("SynMarket-Gen: Financial ABM Experiment Runner")
+    print("HerdLLM: Financial ABM Experiment Runner")
     print("=" * 70)
 
     # =========================================================================

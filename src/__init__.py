@@ -1,1 +1,1 @@
-# SynMarket-Gen: Financial ABM Simulation
+# HerdLLM: Financial ABM Simulation

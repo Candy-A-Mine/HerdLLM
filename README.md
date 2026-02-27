@@ -390,7 +390,7 @@ results/
 | 10 | `metrics_summary.png` | 关键指标雷达图 | 补充 |
 | 11 | `statistical_tests.png` | t检验结果表格 | 补充 |
 | 12 | `network_topology.png` | BA 网络结构可视化 | 补充 |
-| 13 | `stylized_facts_analysis.png` | Stylized Facts 金融典型事实验证 | 验证 |
+| 13 | `stylized_facts.png` | Stylized Facts 金融典型事实验证 | 验证 |
 | 14 | `real_market_comparison.png` | 真实市场 (SPY) 对比分析 | 验证 |
 
 ### Parquet 数据字段
@@ -711,7 +711,7 @@ class SimulationConfig:
 如果本项目对您的研究有帮助，请引用：
 
 ```bibtex
-@software{synmarket_gen,
+@software{herdllm,
   title = {HerdLLM: LLM-Agent Based Financial Market Herding Simulation},
   author = {SuZX},
   year = {2025},

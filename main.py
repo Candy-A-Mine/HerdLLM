@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SynMarket-Gen 主程序入口
+HerdLLM 主程序入口
 
 金融市场情绪演化仿真系统 - 基于LLM-Agent的噪声交易与羊群效应研究
 
@@ -363,7 +363,7 @@ def run_demo_mode(parallel: bool = False, model: str = "qwen2.5:3b"):
         model: LLM模型名称
     """
     print("=" * 70)
-    print("SynMarket-Gen: 金融市场ABM仿真系统 - 演示模式")
+    print("HerdLLM: 金融市场ABM仿真系统 - 演示模式")
     print("=" * 70)
 
     # 加载新闻
@@ -485,7 +485,7 @@ def parse_arguments():
         解析后的参数对象
     """
     parser = argparse.ArgumentParser(
-        description="SynMarket-Gen: 金融市场ABM仿真系统",
+        description="HerdLLM: 金融市场ABM仿真系统",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
@@ -605,7 +605,7 @@ def main():
     elif args.mode == "figures":
         # 图表生成模式（基于已有结果）
         print("=" * 70)
-        print("SynMarket-Gen: 图表生成模式")
+        print("HerdLLM: 图表生成模式")
         print("=" * 70)
         generator = FigureGenerator(args.output)
         generator.load_data()
